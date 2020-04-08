@@ -1,0 +1,403 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.yonggeun.star.com.yonggeun.star.fragment.Liking">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Normal_Like"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/Like_1"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/Liking_1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:nextFocusDown="@id/Liking_2"
+            android:layout_weight="1.5"
+            android:gravity="center_vertical|center_horizontal"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:textSize="16sp"
+            tools:ignore="LabelFor" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/Like_2"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/Liking_2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:nextFocusDown="@id/Liking_3"
+            android:gravity="center_vertical|center_horizontal"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:textSize="16sp"
+            tools:ignore="LabelFor" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/Like_3"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/Liking_3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:nextFocusDown="@id/Event_Liking_1"
+            android:gravity="center_vertical|center_horizontal"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:textSize="16sp"
+            tools:ignore="LabelFor" />
+    </LinearLayout>
+
+    <View
+        android:layout_marginTop="15sp"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#FFFFFF" />
+
+    <TextView
+        android:layout_marginTop="15sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Event_Like"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/Like_1"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/Event_Liking_1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:nextFocusDown="@id/Event_Liking_2"
+            android:gravity="center_vertical|center_horizontal"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:textSize="16sp"
+            tools:ignore="LabelFor" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/Like_2"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/Event_Liking_2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:nextFocusDown="@id/Event_Liking_3"
+            android:gravity="center_vertical|center_horizontal"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:textSize="16sp"
+            tools:ignore="LabelFor" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/Like_3"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/Event_Liking_3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:nextFocusDown="@id/Current_Heart"
+            android:gravity="center_vertical|center_horizontal"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:textSize="16sp"
+            tools:ignore="LabelFor" />
+    </LinearLayout>
+
+    <View
+        android:layout_marginTop="15sp"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#FFFFFF" />
+
+    <TextView
+        android:layout_marginTop="15sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Current_state"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.5"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="@string/Current_Heart"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/Current_Heart"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.5"
+                android:nextFocusDown="@id/Current_Percent"
+                android:gravity="center_vertical|center_horizontal"
+                android:importantForAutofill="no"
+                android:inputType="number"
+                android:textSize="16sp"
+                tools:ignore="LabelFor" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.5"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="@string/Current_Percent"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/Current_Percent"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:nextFocusDown="@id/Use_InitCard"
+                android:layout_weight="1.5"
+                android:gravity="center_vertical|center_horizontal"
+                android:importantForAutofill="no"
+                android:inputType="numberDecimal"
+                android:textSize="16sp"
+                tools:ignore="LabelFor" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="@string/Use_InitCard"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/Use_InitCard"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:nextFocusDown="@id/Apply_Heart"
+                android:gravity="center_vertical|center_horizontal"
+                android:importantForAutofill="no"
+                android:inputType="number"
+                android:textSize="16sp"
+                tools:ignore="LabelFor" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="@string/Apply_InitCard"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/Apply_Heart"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical|center_horizontal"
+                android:importantForAutofill="no"
+                android:inputType="number"
+                android:textSize="16sp"
+                tools:ignore="LabelFor" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:ignore="UselessParent">
+
+            <Button
+                android:id="@+id/Cal"
+                android:layout_width="0dp"
+                android:layout_marginStart="15sp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="@string/Cal"
+                android:textSize="16sp"
+                tools:ignore="ButtonStyle" />
+
+
+
+            <Button
+                android:id="@+id/Init"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="15sp"
+                android:layout_marginEnd="15sp"
+                android:layout_weight="2"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="@string/Init"
+                android:textSize="16sp"
+                tools:ignore="ButtonStyle" />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_marginTop="15sp"
+            android:background="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"/>
+
+        <TextView
+            android:layout_marginTop="15sp"
+            android:text="@string/Result"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <View
+            android:layout_marginTop="15sp"
+            android:background="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40sp"
+            android:orientation="horizontal"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="@string/Used_InitCard"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/Used_InitCard"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical|center_horizontal"
+                 />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="@string/Result_Heart"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/Result_Heart"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical|center_horizontal"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="40sp"
+            android:orientation="horizontal"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="@string/Get_InfinityCard"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/Get_InfinityCard"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical|center_horizontal"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="@string/Result_Percent"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/Result_Percent"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical|center_horizontal"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

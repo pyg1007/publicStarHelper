@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="spinner">#828282</color>
+    <color name="Warrior">#B22222</color>
+    <color name="Samurai">#D2691E</color>
+    <color name="Archer">#0064CD</color>
+    <color name="Priests">#13C7A3</color>
+    <color name="Wizard">#9932CC</color>
+    <color name="Thief">#228B22</color>
+    <color name="Paladin">#FFC314</color>
+    <color name="Summoner">#FF82FF</color>
+</resources>

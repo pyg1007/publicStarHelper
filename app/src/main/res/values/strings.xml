@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">별이되어라 계산기</string>
+    <string name="star">별이되어라</string>
+
+    <string name="Colleague_name">동료 이름</string>
+    <string name="Reinforcement">현재 강화 수치</string>
+    <string name="Possession_count">보유 카드 개수</string>
+    <string name="Need_count">필요 카드 개수</string>
+
+    <string name="Colleague">동료</string>
+    <string name="Liking">호감도</string>
+    <string name="Weapon">엘 가이아 무기</string>
+
+    <string name="Reinforce">강화도를 선택하세요.</string>
+    <string name="Possession">보유 카드개수를 선택하세요.</string>
+
+    <string name="El_Gaia_Weapon">엘 가이아 무기</string>
+    <string name="Current_Weapon">현재 가이아무기 강화 수치</string>
+
+    <string name="C">C 급</string>
+    <string name="B">B 급</string>
+    <string name="A">A 급</string>
+    <string name="S">S 급</string>
+    <string name="SS">SS 급</string>
+    <string name="SSS">SSS 급</string>
+    <string name="Reinforce_Weapon">강화 단계</string>
+    <string name="Require_Reinforce_Weapon">강화 재료</string>
+    <string name="Point">포인트</string>
+    
+    <string name="Cal">계산</string>
+    <string name="Count">개</string>
+    <string name="Result">결과</string>
+    <string name="Slush">/</string>
+    <string name="unKnown">\???</string>
+    <string name="rank">급 </string>
+    <string name="Rein">강화</string>
+
+    <string name="Normal_Like">일반 호감도</string>
+    <string name="Like_1">호감도 1</string>
+    <string name="Like_2">호감도 2</string>
+    <string name="Like_3">호감도 3</string>
+    <string name="Event_Like">이벤트 호감도</string>
+    <string name="Current_state">현재 상태</string>
+    <string name="Current_Heart">현재 하트</string>
+    <string name="Current_Percent">현재 강화도</string>
+    <string name="Use_InitCard">사용 호초권 개수</string>
+    <string name="Used_InitCard">사용한 호초권 개수</string>
+    <string name="Apply_InitCard">적용 호초권 하트</string>
+    <string name="Get_InfinityCard">획득 인피니티 카드</string>
+    <string name="Result_Percent">최총 퍼센트</string>
+    <string name="Result_Heart">최종 하트</string>
+    <string name="Init">초기화</string>
+
+    <string name="Warrior">전사</string>
+    <string name="Wizard">마법사</string>
+    <string name="Archer">궁수</string>
+    <string name="Thief">도적</string>
+    <string name="Summoner">소환사</string>
+    <string name="Paladin">성기사</string>
+    <string name="Priests">사제</string>
+    <string name="Samurai">무사</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

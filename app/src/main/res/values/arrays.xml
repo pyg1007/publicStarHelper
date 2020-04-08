@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="transcendence_infinite">
+        <item>초월</item>
+        <item>패왕</item>
+        <item>ARCH</item>
+        <item>Infinite</item>
+        <item>Infinite 1</item>
+        <item>Infinite 2</item>
+        <item>Infinite 3</item>
+        <item>Infinite 4</item>
+        <item>Infinite 5</item>
+        <item>Infinite 6</item>
+        <item>Infinite 7</item>
+        <item>Infinite 8</item>
+        <item>Infinite 9</item>
+    </string-array>
+
+    <string-array name="Defeat_infinite">
+        <item>패왕</item>
+        <item>ARCH</item>
+        <item>Infinite</item>
+        <item>Infinite 1</item>
+        <item>Infinite 2</item>
+        <item>Infinite 3</item>
+        <item>Infinite 4</item>
+        <item>Infinite 5</item>
+        <item>Infinite 6</item>
+        <item>Infinite 7</item>
+        <item>Infinite 8</item>
+        <item>Infinite 9</item>
+    </string-array>
+
+    <string-array name="deity_infinite">
+        <item>ARCH</item>
+        <item>Infinite</item>
+        <item>Infinite 1</item>
+        <item>Infinite 2</item>
+        <item>Infinite 3</item>
+        <item>Infinite 4</item>
+        <item>Infinite 5</item>
+        <item>Infinite 6</item>
+        <item>Infinite 7</item>
+        <item>Infinite 8</item>
+        <item>Infinite 9</item>
+    </string-array>
+
+    <!--초월동료-->
+    <string-array name="transcendence_Colleague">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+    </string-array>
+
+    <!--패왕동료-->
+    <string-array name="Defeat_Colleague">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+    </string-array>
+
+    <!--신위동료-->
+    <string-array name="deity_Colleague">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+    </string-array>
+
+    <string-array name="C_Rank_Weapon">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="B_Rank_Weapon">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string-array name="A_Rank_Weapon">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string-array name="S_Rank_Weapon">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+
+    <string-array name="SS_Rank_Weapon">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+
+    <string-array name="SSS_Rank_Weapon">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+</resources>

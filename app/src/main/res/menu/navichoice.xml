@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/Colleague"
+        android:icon="@drawable/colleague"
+        app:showAsAction="always"
+        android:title="@string/Colleague"/>
+
+    <item
+        android:id="@+id/Liking"
+        android:icon="@drawable/love"
+        app:showAsAction="always"
+        android:title="@string/Liking"/>
+
+    <item
+        android:id="@+id/weapon"
+        app:showAsAction="always"
+        android:icon="@drawable/weapon"
+        android:title="@string/Weapon"/>
+</menu>

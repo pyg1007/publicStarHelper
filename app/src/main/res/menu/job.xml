@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/Save"
+        android:title="저장"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_save_black_24dp"/>
+
+    <item
+        android:id="@+id/Warrior"
+        android:icon="@drawable/warrior"
+        android:title="@string/Warrior"/>
+
+    <item
+        android:id="@+id/Samurai"
+        android:icon="@drawable/samurai"
+        android:title="@string/Samurai"/>
+
+    <item
+        android:id="@+id/Archer"
+        android:icon="@drawable/bow"
+        android:title="@string/Archer"/>
+
+    <item
+        android:id="@+id/Wizard"
+        android:icon="@drawable/wizard"
+        android:title="@string/Wizard"/>
+
+    <item
+        android:id="@+id/thief"
+        android:icon="@drawable/thief"
+        android:title="@string/Thief"/>
+
+    <item
+        android:id="@+id/Priests"
+        android:icon="@drawable/priests"
+        android:title="@string/Priests"/>
+
+    <item
+        android:id="@+id/Paladin"
+        android:icon="@drawable/paladin"
+        android:title="@string/Paladin"/>
+
+    <item
+        android:id="@+id/Summoner"
+        android:icon="@drawable/summoner"
+        android:title="@string/Summoner"/>
+
+</menu>

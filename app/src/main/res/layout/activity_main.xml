@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yonggeun.star.MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/Toolbar"
+        android:layout_height="55sp"
+        android:background="@drawable/toolbar"
+        android:layout_width="match_parent" />
+
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_below="@+id/Toolbar"
+        android:layout_above="@+id/Bottom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/Bottom"
+        app:menu="@menu/navichoice"
+        app:itemIconTint="@drawable/itemclick"
+        app:itemTextColor="@drawable/itemclick"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"/>
+
+</RelativeLayout>
