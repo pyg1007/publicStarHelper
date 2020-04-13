@@ -14,7 +14,7 @@ import android.widget.AdapterView
 import android.widget.ArrayAdapter
 import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
-import com.yonggeun.star.R
+import com.yonggeun.become_star.R
 import kotlinx.android.synthetic.main.fragment_weapon.*
 import kotlinx.android.synthetic.main.fragment_weapon.view.*
 import java.math.BigDecimal

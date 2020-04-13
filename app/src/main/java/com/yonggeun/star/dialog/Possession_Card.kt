@@ -4,7 +4,7 @@ import android.app.Dialog
 import android.content.Context
 import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.yonggeun.star.R
+import com.yonggeun.become_star.R
 import com.yonggeun.star.recyclerview.Possession_Adapter
 import kotlinx.android.synthetic.main.activity_possesion__card.*
 

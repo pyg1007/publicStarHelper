@@ -1,4 +1,4 @@
-package com.yonggeun.star
+package com.yonggeun.become_star
 
 import android.annotation.SuppressLint
 import android.content.Intent
@@ -9,9 +9,9 @@ import android.os.Message
 import android.os.SystemClock
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
-import com.yonggeun.become_star.R
-import com.yonggeun.star.room.Colleague
-import com.yonggeun.star.room.ColleagueViewModel
+import com.yonggeun.become_star.room.Colleague
+import com.yonggeun.become_star.room.ColleagueViewModel
+
 
 class Intro : AppCompatActivity() {
 

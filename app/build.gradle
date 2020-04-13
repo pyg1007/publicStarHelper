@@ -11,8 +11,8 @@ android {
         applicationId "com.yongguen.become_star"
         minSdkVersion 21
         targetSdkVersion 29
-        versionCode 1
-        versionName "1.0"
+        versionCode 3
+        versionName "1.0.1"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -52,4 +52,5 @@ dependencies {
     implementation "androidx.lifecycle:lifecycle-runtime-ktx:2.3.0-alpha01"
     annotationProcessor "androidx.lifecycle:lifecycle-compiler:2.2.0"
 
+    implementation 'org.jsoup:jsoup:1.11.3'
 }

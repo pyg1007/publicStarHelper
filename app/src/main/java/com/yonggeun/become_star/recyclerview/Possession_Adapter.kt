@@ -1,22 +1,21 @@
-package com.yonggeun.star.recyclerview
+package com.yonggeun.become_star.recyclerview
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.yonggeun.become_star.R
-import kotlinx.android.synthetic.main.reinforce_list.view.*
+import kotlinx.android.synthetic.main.possesion_list.view.*
 
-class Impact_Adapter(var data: ArrayList<String>, val itemClick: (String) -> Unit) :
-    RecyclerView.Adapter<Impact_Adapter.CustomViewHolder>() {
-
+class Possession_Adapter(var data: ArrayList<String>, var itemClick: (String) -> Unit) :
+    RecyclerView.Adapter<Possession_Adapter.CustomViewHolder>() {
 
     inner class CustomViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
 
         fun bind(s: String) {
 
-            itemView.Reinforce.text = s
-            itemView.setOnClickListener() {
+            itemView.Possesion.text = s
+            itemView.setOnClickListener {
                 itemClick(s)
             }
         }
@@ -24,7 +23,7 @@ class Impact_Adapter(var data: ArrayList<String>, val itemClick: (String) -> Uni
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CustomViewHolder {
         val view: View =
-            LayoutInflater.from(parent.context).inflate(R.layout.reinforce_list, parent, false)
+            LayoutInflater.from(parent.context).inflate(R.layout.possesion_list, parent, false)
         return CustomViewHolder(view)
     }
 

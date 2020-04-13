@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.yonggeun.star.dialog.Possession_Card">
+    tools:context="com.yonggeun.become_star.dialog.Possession_Card">
 
     <TextView
         android:id="@+id/Title"

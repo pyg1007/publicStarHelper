@@ -1,4 +1,4 @@
-package com.yonggeun.star.fragment
+package com.yonggeun.become_star.fragment
 
 import android.annotation.SuppressLint
 import android.os.Bundle
@@ -119,17 +119,14 @@ class Liking : Fragment() {
         var useInitCount = useInitCard
         var heart = currentHeart
         var sum = likeSum
-        Log.e("like : ", likeSum.toString())
         while (true) {
             val max = value(heart)
             sum -= max
             if (sum < 0) {
                 sum += max
-                Log.e("sum : ", sum.toString())
-                Log.e("max : ", max.toString())
                 Used_InitCard.text = initCount.toString()
                 Result_Heart.text = heart.toString()
-                if (((sum.toDouble() / max.toDouble()).roundTo2DecimalPlaces() * 100.0).toString().length == 5)
+                if (((sum.toDouble() / max.toDouble()).roundTo2DecimalPlaces() * 100.0).toString().length <= 5)
                     Result_Percent.text =
                         ((sum.toDouble() / max.toDouble()).roundTo2DecimalPlaces() * 100.0).toString() + "%"
                 else

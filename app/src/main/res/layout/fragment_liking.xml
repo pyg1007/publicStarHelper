@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.yonggeun.star.com.yonggeun.star.fragment.Liking">
+    tools:context="com.yonggeun.become_star.">
 
     <TextView
         android:layout_width="match_parent"
@@ -28,11 +28,11 @@
             android:id="@+id/Liking_1"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:nextFocusDown="@id/Liking_2"
             android:layout_weight="1.5"
             android:gravity="center_vertical|center_horizontal"
             android:importantForAutofill="no"
             android:inputType="number"
+            android:nextFocusDown="@id/Liking_2"
             android:textSize="16sp"
             tools:ignore="LabelFor" />
 
@@ -49,10 +49,10 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1.5"
-            android:nextFocusDown="@id/Liking_3"
             android:gravity="center_vertical|center_horizontal"
             android:importantForAutofill="no"
             android:inputType="number"
+            android:nextFocusDown="@id/Liking_3"
             android:textSize="16sp"
             tools:ignore="LabelFor" />
 
@@ -69,24 +69,24 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1.5"
-            android:nextFocusDown="@id/Event_Liking_1"
             android:gravity="center_vertical|center_horizontal"
             android:importantForAutofill="no"
             android:inputType="number"
+            android:nextFocusDown="@id/Event_Liking_1"
             android:textSize="16sp"
             tools:ignore="LabelFor" />
     </LinearLayout>
 
     <View
-        android:layout_marginTop="15sp"
         android:layout_width="match_parent"
         android:layout_height="2dp"
+        android:layout_marginTop="15sp"
         android:background="#FFFFFF" />
 
     <TextView
-        android:layout_marginTop="15sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="15sp"
         android:text="@string/Event_Like"
         android:textSize="16sp" />
 
@@ -108,10 +108,10 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1.5"
-            android:nextFocusDown="@id/Event_Liking_2"
             android:gravity="center_vertical|center_horizontal"
             android:importantForAutofill="no"
             android:inputType="number"
+            android:nextFocusDown="@id/Event_Liking_2"
             android:textSize="16sp"
             tools:ignore="LabelFor" />
 
@@ -128,10 +128,10 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1.5"
-            android:nextFocusDown="@id/Event_Liking_3"
             android:gravity="center_vertical|center_horizontal"
             android:importantForAutofill="no"
             android:inputType="number"
+            android:nextFocusDown="@id/Event_Liking_3"
             android:textSize="16sp"
             tools:ignore="LabelFor" />
 
@@ -148,24 +148,24 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1.5"
-            android:nextFocusDown="@id/Current_Heart"
             android:gravity="center_vertical|center_horizontal"
             android:importantForAutofill="no"
             android:inputType="number"
+            android:nextFocusDown="@id/Current_Heart"
             android:textSize="16sp"
             tools:ignore="LabelFor" />
     </LinearLayout>
 
     <View
-        android:layout_marginTop="15sp"
         android:layout_width="match_parent"
         android:layout_height="2dp"
+        android:layout_marginTop="15sp"
         android:background="#FFFFFF" />
 
     <TextView
-        android:layout_marginTop="15sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="15sp"
         android:text="@string/Current_state"
         android:textSize="16sp" />
 
@@ -193,10 +193,10 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1.5"
-                android:nextFocusDown="@id/Current_Percent"
                 android:gravity="center_vertical|center_horizontal"
                 android:importantForAutofill="no"
                 android:inputType="number"
+                android:nextFocusDown="@id/Current_Percent"
                 android:textSize="16sp"
                 tools:ignore="LabelFor" />
 
@@ -212,11 +212,11 @@
                 android:id="@+id/Current_Percent"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:nextFocusDown="@id/Use_InitCard"
                 android:layout_weight="1.5"
                 android:gravity="center_vertical|center_horizontal"
                 android:importantForAutofill="no"
                 android:inputType="numberDecimal"
+                android:nextFocusDown="@id/Use_InitCard"
                 android:textSize="16sp"
                 tools:ignore="LabelFor" />
         </LinearLayout>
@@ -240,10 +240,10 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:nextFocusDown="@id/Apply_Heart"
                 android:gravity="center_vertical|center_horizontal"
                 android:importantForAutofill="no"
                 android:inputType="number"
+                android:nextFocusDown="@id/Apply_Heart"
                 android:textSize="16sp"
                 tools:ignore="LabelFor" />
 
@@ -276,14 +276,13 @@
             <Button
                 android:id="@+id/Cal"
                 android:layout_width="0dp"
-                android:layout_marginStart="15sp"
                 android:layout_height="match_parent"
+                android:layout_marginStart="15sp"
                 android:layout_weight="2"
                 android:gravity="center_vertical|center_horizontal"
                 android:text="@string/Cal"
                 android:textSize="16sp"
                 tools:ignore="ButtonStyle" />
-
 
 
             <Button
@@ -302,102 +301,109 @@
         </LinearLayout>
 
         <View
-            android:layout_marginTop="15sp"
-            android:background="#FFFFFF"
             android:layout_width="match_parent"
-            android:layout_height="2dp"/>
+            android:layout_height="2dp"
+            android:layout_marginTop="15sp"
+            android:background="#FFFFFF" />
 
         <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_marginTop="15sp"
             android:text="@string/Result"
-            android:textSize="16sp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:textSize="16sp" />
 
         <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
             android:layout_marginTop="15sp"
-            android:background="#FFFFFF"
-            android:layout_width="match_parent"
-            android:layout_height="2dp"/>
+            android:background="#FFFFFF" />
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="40sp"
-            android:orientation="horizontal"
-            tools:ignore="UselessParent">
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="2"
-                android:gravity="center_vertical|center_horizontal"
-                android:text="@string/Used_InitCard"
-                android:textSize="16sp" />
-
-            <TextView
-                android:id="@+id/Used_InitCard"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_weight="1"
-                android:gravity="center_vertical|center_horizontal"
-                 />
+                android:layout_height="0dp"
+                android:layout_marginBottom="16sp"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
 
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="2"
-                android:gravity="center_vertical|center_horizontal"
-                android:text="@string/Result_Heart"
-                android:textSize="16sp" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="@string/Used_InitCard"
+                    android:textSize="16sp" />
 
-            <TextView
-                android:id="@+id/Result_Heart"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
+                <TextView
+                    android:id="@+id/Used_InitCard"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical|center_horizontal" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="@string/Result_Heart"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/Result_Heart"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
                 android:layout_weight="1"
-                android:gravity="center_vertical|center_horizontal"
-                android:textSize="16sp" />
+                android:layout_marginTop="16sp"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="@string/Get_InfinityCard"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/Get_InfinityCard"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical|center_horizontal" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="@string/Result_Percent"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/Result_Percent"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
         </LinearLayout>
-
-        <LinearLayout
-            android:layout_marginTop="16sp"
-            android:layout_width="match_parent"
-            android:layout_height="40sp"
-            android:orientation="horizontal"
-            tools:ignore="UselessParent">
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="2"
-                android:gravity="center_vertical|center_horizontal"
-                android:text="@string/Get_InfinityCard"
-                android:textSize="16sp" />
-
-            <TextView
-                android:id="@+id/Get_InfinityCard"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:gravity="center_vertical|center_horizontal"
-                />
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="2"
-                android:gravity="center_vertical|center_horizontal"
-                android:text="@string/Result_Percent"
-                android:textSize="16sp" />
-
-            <TextView
-                android:id="@+id/Result_Percent"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:gravity="center_vertical|center_horizontal"
-                android:textSize="16sp" />
-        </LinearLayout>
-
     </LinearLayout>
 </LinearLayout>

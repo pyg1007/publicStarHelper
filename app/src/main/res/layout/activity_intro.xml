@@ -5,7 +5,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.yonggeun.star.com.yonggeun.star.Intro">
+    tools:context="com.yonggeun.become_star">
 
     <ImageView
         android:layout_weight="8"

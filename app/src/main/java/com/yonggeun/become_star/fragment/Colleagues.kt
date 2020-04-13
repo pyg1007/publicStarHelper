@@ -1,4 +1,4 @@
-package com.yonggeun.star.fragment
+package com.yonggeun.become_star.fragment
 
 import android.os.Bundle
 import android.view.*
@@ -9,9 +9,9 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.yonggeun.become_star.R
-import com.yonggeun.star.recyclerview.ColleagueInfo
-import com.yonggeun.star.room.Colleague
-import com.yonggeun.star.room.ColleagueViewModel
+import com.yonggeun.become_star.recyclerview.ColleagueInfo
+import com.yonggeun.become_star.room.Colleague
+import com.yonggeun.become_star.room.ColleagueViewModel
 import kotlinx.android.synthetic.main.fragment_warrior.*
 import kotlinx.android.synthetic.main.fragment_warrior.view.*
 

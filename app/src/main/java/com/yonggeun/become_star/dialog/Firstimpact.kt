@@ -1,11 +1,11 @@
-package com.yonggeun.star.dialog
+package com.yonggeun.become_star.dialog
 
 import android.app.Dialog
 import android.content.Context
 import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.yonggeun.become_star.R
-import com.yonggeun.star.recyclerview.Impact_Adapter
+import com.yonggeun.become_star.recyclerview.Impact_Adapter
 import kotlinx.android.synthetic.main.activity_first__impact.*
 
 class Firstimpact(

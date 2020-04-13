@@ -1,4 +1,4 @@
-package com.yonggeun.star.recyclerview
+package com.yonggeun.become_star.recyclerview
 
 import android.app.Dialog
 import android.content.Context
@@ -7,9 +7,9 @@ import android.graphics.Point
 import android.view.*
 import androidx.recyclerview.widget.RecyclerView
 import com.yonggeun.become_star.R
-import com.yonggeun.star.dialog.Firstimpact
-import com.yonggeun.star.dialog.Possession_Card
-import com.yonggeun.star.room.Colleague
+import com.yonggeun.become_star.dialog.Firstimpact
+import com.yonggeun.become_star.dialog.Possession_Card
+import com.yonggeun.become_star.room.Colleague
 import kotlinx.android.synthetic.main.colleague.view.*
 
 class ColleagueInfo(var Info: ArrayList<Colleague>) :

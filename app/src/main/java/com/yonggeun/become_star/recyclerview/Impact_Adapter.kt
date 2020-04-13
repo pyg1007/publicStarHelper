@@ -1,4 +1,4 @@
-package com.yonggeun.star.recyclerview
+package com.yonggeun.become_star.recyclerview
 
 import android.view.LayoutInflater
 import android.view.View

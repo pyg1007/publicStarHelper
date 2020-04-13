@@ -1,13 +1,12 @@
-package com.yonggeun.star
+package com.yonggeun.become_star
 
 import android.os.Bundle
 import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
 import com.google.android.material.bottomnavigation.BottomNavigationView
-import com.yonggeun.become_star.R
-import com.yonggeun.star.fragment.Colleagues
-import com.yonggeun.star.fragment.Liking
-import com.yonggeun.star.fragment.Weapon
+import com.yonggeun.become_star.fragment.Colleagues
+import com.yonggeun.become_star.fragment.Liking
+import com.yonggeun.become_star.fragment.Weapon
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity(), BottomNavigationView.OnNavigationItemSelectedListener {
