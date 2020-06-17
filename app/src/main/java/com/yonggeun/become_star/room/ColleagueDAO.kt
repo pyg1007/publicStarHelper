@@ -9,7 +9,7 @@ interface ColleagueDAO {
     @Query("SELECT * FROM colleague")
     fun getAll(): LiveData<List<Colleague>>
 
-    @Insert
+    @Insert(onConflict = OnConflictStrategy.IGNORE)
     fun insert(vararg colleague: Colleague)
 
     @Update

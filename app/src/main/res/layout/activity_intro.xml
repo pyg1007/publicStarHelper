@@ -5,13 +5,13 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.yonggeun.become_star">
+    tools:context="com.yonggeun.become_star.Intro">
 
     <ImageView
         android:layout_weight="8"
         android:src="@drawable/star"
         android:layout_width="match_parent"
-        android:layout_height="0dp"/>
+        android:layout_height="200dp"/>
 
     <TextView
         android:id="@+id/Name"

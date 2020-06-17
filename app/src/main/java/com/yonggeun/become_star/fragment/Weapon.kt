@@ -40,6 +40,8 @@ class Weapon : Fragment() {
         return view
     }
 
+
+
     private fun init(view: View?) {
 
         if (Build.VERSION.SDK_INT >= 29) {
